@@ -6,9 +6,9 @@
     margin: 5px;
     border-radius: .5em;
     padding: 5px;
-    box-shadow: 2px 2px 1px lightgray;
     transition: .5s;
     cursor: pointer;
+    padding: 5px;
 }
 
 .personne:hover{
@@ -17,33 +17,20 @@
 
 .personne > img {
     width: 100%;
+    margin-bottom: 5px;
 }
 
 
-.modal > .header {
+.popup > .header {
     width: 100%;
     border-bottom: 1px solid gray;
     font-size: 18px;
     text-align: center;
     padding: 5px;
 }
-.modal > .content {
+.popup > .content {
     width: 100%;
     padding: 10px 5px;
 }
 
-.modal > .close {
-    border: none;
-    background-color: #cfcece;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .5s;
-    border-radius: 999px;
-}
-
-.modal > .close:hover {
-    background-color: red;
-}
 
