@@ -6,7 +6,8 @@ import { ListePersonnes } from './personnes/ListePersonnes';
 
 function App() {
     return (
-		<div>
+		<div class="wrapper">
+			<h1>Annuaire</h1>	
 			<ListePersonnes liste={personne}/>
 		</div>
     );

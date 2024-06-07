@@ -1,11 +1,12 @@
 .personne{
-    border: 2px dotted black;
+    border: 1px solid lightgray;
     height: 300px;
     width: 200px;
     display: inline-block;
     margin: 5px;
     border-radius: .5em;
     padding: 5px;
+    box-shadow: 2px 2px 5px gray
 }
 
 .personne > img {

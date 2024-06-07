@@ -21,6 +21,7 @@ export const FichePersonne = ({nom, prenom, image, dateNaissance, genre}) => {
             {valueGenre}
             <br />
             {dateNaissance}
+            <img src={image} alt={ nom + " " + prenom } />
         </div>
     )
 }
