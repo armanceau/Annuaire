@@ -13,7 +13,6 @@ export const Statistiques = ({liste}) => {
         }
     });
 
-
     return (
         <div class="w-80 d-flex justify-content-start">
             <div class="d-flex p-3 flex-column align-items-start shadow-sm border br-20">
