@@ -1,18 +1,18 @@
 .personne{
     border: 1px solid lightgray;
-    height: 300px;
-    width: 200px;
-    display: inline-block;
+    height: 370px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
     margin: 5px;
     border-radius: .5em;
     padding: 5px;
     transition: .5s;
-    cursor: pointer;
     padding: 5px;
 }
 
 .personne:hover{
-    scale: 1.05;
+    scale: 1.04;
 }
 
 .personne > img {
@@ -20,6 +20,11 @@
     margin-bottom: 5px;
 }
 
+.genre {
+    background-color: lightgray;
+    border-radius: 999px;
+    cursor: pointer;
+}
 
 .popup > .header {
     width: 100%;
