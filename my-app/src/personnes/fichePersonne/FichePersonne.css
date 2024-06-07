@@ -6,7 +6,13 @@
     margin: 5px;
     border-radius: .5em;
     padding: 5px;
-    box-shadow: 2px 2px 5px gray
+    box-shadow: 2px 2px 1px lightgray;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.personne:hover{
+    scale: 1.05;
 }
 
 .personne > img {

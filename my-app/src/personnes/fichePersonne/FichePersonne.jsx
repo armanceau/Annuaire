@@ -1,4 +1,5 @@
 import "./FichePersonne.css"
+import "../../assets/styles/style.css"
 
 export const FichePersonne = ({nom, prenom, image, dateNaissance, genre}) => {
 
@@ -18,10 +19,16 @@ export const FichePersonne = ({nom, prenom, image, dateNaissance, genre}) => {
         <div class="personne"> 
             {nom} {prenom}
             <hr />
-            {valueGenre}
+            <div class="d-flex justify-content-between w-100">
+                <div>
+                    {valueGenre}
+                </div>
+                <div>
+                    {dateNaissance}
+                </div>
+            </div>
             <br />
-            {dateNaissance}
-            <img src={image} alt={ nom + " " + prenom } />
+            <img class="br-20" src={image} alt={ nom + " " + prenom } />
         </div>
     )
 }

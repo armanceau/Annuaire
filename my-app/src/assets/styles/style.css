@@ -1,0 +1,45 @@
+@font-face{
+    font-family: 'CabinSketch';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/CabinSketch-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Fredoka-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Poppins/Poppins-Regular.ttf');
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.br-20{
+    border-radius: 20px;
+}
