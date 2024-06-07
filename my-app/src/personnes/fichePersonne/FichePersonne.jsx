@@ -21,7 +21,7 @@ export const FichePersonne = ({nom, prenom, image, dateNaissance, genre, descrip
     }
 
     return (
-        <div class="personne shadow-sm br-20"> 
+        <div class="personne border shadow-sm br-20"> 
 
             {nom} {prenom}
 

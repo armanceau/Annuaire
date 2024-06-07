@@ -25,7 +25,7 @@ html{
 }
 
 body{
-    font-family: 'Poppins';
+    font-family: 'Poppins' !important;
 }
 
 .br-20{
@@ -42,4 +42,8 @@ body{
 
 .gap-05 {
     gap: 5px !important;
+}
+
+.w-80 {
+    width: 80%;
 }
