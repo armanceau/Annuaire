@@ -41,14 +41,14 @@ export const AjouterPersonne = ({liste, setGetListe}) => {
                     </div>
 
                     <div class="d-flex align-items-start flex-column w-50">
-                        <label htmlFor="prenom">Genre :</label>
+                        <label htmlFor="genre">Genre :</label>
                         <div>
-                            <input type="radio" id="Masculin" name="Masculin" value="Masculin"  onChange={onChange}/>
+                            <input type="radio" id="Masculin" name="genre" value="Masculin" checked="true" onChange={onChange}/>
                             <label for="Masculin">Masculin</label>
                         </div>
 
                         <div>
-                            <input type="radio" id="Féminin" name="Féminin" value="Féminin" onChange={onChange}/>
+                            <input type="radio" id="Féminin" name="genre" value="Féminin" onChange={onChange}/>
                             <label for="Féminin">Féminin</label>
                         </div>
                     </div>
